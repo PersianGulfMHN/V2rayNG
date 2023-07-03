@@ -1,39 +1,91 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>PersianGulf</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      text-align: right;
-      padding: 10px;
-      font-size: 16px;
-    }
-    h1, h2 {
-      text-align: center;
-    }
-    strong {
-      font-weight: bold;
-    }
-    .extra-space {
-      margin-top: 1em;
-    }
-  </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>PersianGulf VPN</title>
+    <style>
+        body {
+            direction: rtl;
+            text-align: right;
+        }
+
+        h1 {
+            color: black;
+        }
+
+        h2 {
+            color: black;
+        }
+
+        .subtitle {
+            color: darkgreen;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .red {
+            color: red;
+            font-weight: bold;
+        }
+
+        .blue {
+            color: blue;
+        }
+    </style>
 </head>
 <body>
-  <h1>راهنمای اتصال به فیلترشکن خلیج فارس</h1>
-  <h2>خوش آمدید</h2>
-  <p>برای استفاده از فیلترشکن لازم است ابتدا یکی از اپلیکیشن‌های زیر را متناسب با سیستم عامل موبایل نصب کنید:</p>
-  <p><strong>برای اندروید:</strong></p>
-  <p>اپلیکیشن V2rayNG را از فروشگاه گوگل نصب کنید و یا اگر این اپلیکیشن را از قبل دارید، آن را آپدیت کنید.</p>
-  <p>لازم به ذکر است برای اجرای کانفیگ‌های جدید، این اپلیکیشن الزاما باید به آخرین نسخه منتشر شده آپدیت شود.</p>
-  <p class="extra-space">اگر امکان دسترسی به فروشگاه گوگل را ندارید، می‌توانید از لینک‌های زیر فایل این اپلیکیشن را دانلود و نصب یا آپدیت کنید. برای این کار نیازی به فیلترشکن ندارید:</p>
-  <p>نسخه مناسب همه گوشی‌ها:</p>
-  <a href="https://github.com/2dust/v2rayNG/releases/download/1.8.5/v2rayNG_1.8.5.apk">https://github.com/2dust/v2rayNG/releases/download/1.8.5/v2rayNG_1.8.5.apk</a>
-  <p>نسخه مناسب گوشی‌های جدید:</p>
-  <a href="https://github.com/2dust/v2rayNG/releases/download/1.8.5/v2rayNG_1.8.5_arm64-v8a.apk">https://github.com/2dust/v2rayNG/releases/download/1.8.5/v2rayNG_1.8.5_arm64-v8a.apk</a>
-  <p>نسخه مناسب گوشی‌های قدیمی:</p>
-  <a href="https://github.com/2dust/v2rayNG/releases/download/1.8.5/v2rayNG_1.8.5_armeabi-v7a.apk">https://github.com/2dust/v2rayNG/releases/download/1.8.5/v2rayNG_1.8.5_armeabi-v7a.apk</a>
+    <h1>به صفحه راهنمای وی پی ان خلیج فارس خوش آمدید</h1>
+    <h2>نصب و فعال سازی در سه مرحله زیر انجام می شود</h2>
+
+    <h3 class="subtitle">۱- نصب اپلیکیشن مناسب برای گوشی</h3>
+    <p class="red">برای اندروید:</p>
+    <p>آخرین نسخه اپلیکیشن وی2ری را از گوگل پلی نصب کنید <a href="https://play.google.com/store/apps/details?id=com.v2ray.ang" target="_blank">V2rayNG</a></p>
+    <p>اگر اپلیکیشن را از قبل دارید باید حتما آن را به آخرین نسخه منتشر شده آپدیت کنید</p>
+    <p>اگر به گوگل پلی دسترسی ندارید میتوانید از لینکهای زیر برای دریافت نسخه مناسب با مدل گوشی، استفاده کنید</p>
+    <p>(برای دانلود از لینکهای زیر نیازی به فیلترشکن نیست)</p>
+    <ul>
+        <li><a href="https://github.com/2dust/v2rayNG/releases/download/1.8.5/v2rayNG_1.8.5.apk" target="_blank">نسخه مناسب اغلب گوشی ها</a></li>
+        <li><a href="https://github.com/2dust/v2rayNG/releases/download/1.8.5/v2rayNG_1.8.5_arm64-v8a.apk" target="_blank">نسخه کم حجم مناسب گوشی های جدید</a></li>
+        <li><a href="https://github.com/2dust/v2rayNG/releases/download/1.8.5/v2rayNG_1.8.5_armeabi-v7a.apk" target="_blank">نسخه کم حجم مناسب گوشی های قدیمی</a></li>
+        <li><a href="https://github.com/2dust/v2rayNG/releases" target="_blank">صفحه اصلی دانلود برای همه مدل‌ها</a></li>
+    </ul>
+
+    <p class="red">برای آی او اس (آیفون):</p>
+    <p>یکی از اپلیکیشن‌های زیر را نصب کنید</p>
+    <ul>
+        <li><a href="https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690" class="blue" target="_blank">V2box</a></li>
+        <li><a href="https://apps.apple.com/us/app/foxray/id6448898396" class="blue" target="_blank">FoXray</a></li>
+        <li><a href="https://apps.apple.com/us/app/shadowrocket/id932747118" class="blue" target="_blank">Shadowrocket</a></li>
+    </ul>
+
+   <h3 class="subtitle">2- کپی کردن کانفیگ ها</h3>
+    <p>بعد از نصب اپلیکیشن مناسب گوشی خودتان، کانفیگهای مناسب را از ادامه این نوشتار کپی کنید</p>
+	   <p>(برای کپی کردن میتوانید روی کانفیگ یک ضربه بزنید)</p>
+    <p class="red">کانفیگهای مناسب ایرانسل</p>
+    <p onclick="copyToClipboard('vless://c5fa413c-fdce-4841-d6f9-a6274676f6de@65.109.173.28:443?security=reality&encryption=none&pbk=9AnJpw4nw_N5dQcXMHV')">vless://c5fa413c-fdce-4841-d6f9-a6274676f6de@65.109.173.28:443?security=reality&encryption=none&pbk=9AnJpw4nw_N5dQcXMHV</p>
+
+    <p class="red">کانفیگهای مناسب همراه اول:</p>
+    <p onclick="copyToClipboard('vless://ba05e315-d48a-4a80-af43-511c3baaff47@88.214.20.6:8443?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc')">vless://ba05e315-d48a-4a80-af43-511c3baaff47@88.214.20.6:8443?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc</p>
+
+    <h3 class="subtitle">3-  وارد کردن کانفیگها در اپلیکیشن و فعال سازی وی پی ان</h3>
+    <p>بعد از کپی کردن کانفیگ در حافظه وارد اپلیکیشن نصب شده بشوید و کانفیگ را وارد کنید</p>
+	<p>برای اپلیکیشن وی2ری از نوار بالای اپلیکیشن، علامت بعلاوه را بزنید و از گزینه دوم ورود کانفیگ از کلیپ بورد را انتخاب کنید</p>
+	<p>برای اپلیکیشهای آی او اس گزینه های معادل یا علامت بازنشانی یا ورود کانفیگ از طریق یو آر ال را استفاده کنید</p>
+	<p class="red">برای تمدید اکانتها، خرید اکانت جدید و یا سوالات مرتبط به آدرس زیر ایمیل بزنید</p>
+	<p class="blue">admin@persiangulf.fun</p>
+	<p class="red">و یا به تلگرام زیر پیام بدهید</p>
+	<a href="https://t.me/O402T" class="blue" target="_blank">https://t.me/O402T</a>
+    <script>
+        function copyToClipboard(text) {
+            const el = document.createElement('textarea');
+            el.value = text;
+            document.body.appendChild(el);
+            el.select();
+            document.execCommand('copy');
+            document.body.removeChild(el);
+            alert('کانفیگ با موفقیت کپی شد!');
+        }
+    </script>
 </body>
 </html>
